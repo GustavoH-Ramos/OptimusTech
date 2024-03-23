@@ -1,0 +1,29 @@
+@import url("styles.css/reset.css");
+@import url("styles.css/haeder.css");
+@import url("styles.css/main.css");
+@import url("styles.css/footer.css");
+
+:root {
+    --cor-de-fundo:#FFFFFF;
+    --preto: #101828;
+    --vermelho: #8E2424;
+    --cinza: #667085;
+    --cinza-escuro: #3A404E;
+    --fonte-principal: "Inter", sans-serif;
+    --cinza-claro: #EAECF0;
+    --cor-de-fundo-secundaria: #F9FAFB;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+}
+

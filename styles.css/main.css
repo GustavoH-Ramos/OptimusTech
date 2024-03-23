@@ -1,0 +1,168 @@
+.vagas__conteiner {
+    margin: 12em 6em;
+}
+
+.vagas__abertas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 6em 1em 0 1em;
+}
+
+.vagas__abertas__alerta {
+    font-weight: 500;
+    color: var(--vermelho);
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 0.5em;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.vagas__abertas__titulo {
+    font-size: 36px;
+    color: var(--preto);
+    font-weight: 600;
+    margin: 0.6em 0;
+}
+
+.vagas__abertas__texto {
+    font-size: 20px;
+    margin-bottom: 3em;
+}
+
+.vagas {
+    padding: 5em 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.vagas__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 2em;
+}
+
+.lista__vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.vagas__item__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 2em;
+}
+
+.vagas__item__texto{
+    font-weight: 500;
+}
+
+.item__caixa {
+    display: flex;
+    gap: 1em;
+}
+
+.vagas__item {
+    border: 2px solid var(--cinza-claro);
+    border-radius: 16px;
+    padding: 2em;
+}
+
+.colaboradores{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(195, 25, 25, 0.03);
+    padding: 5em 2.6em;
+    gap: 1em;
+    border-radius: 16px;
+    margin: 1em 2em;
+}
+
+.colaboradores__titulo {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.colaboradores__texto {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.colaboradores__nome, .colaboradores__texto{
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.colaboradores__funcao, .colaboradores__titulo {
+    font-size: 14px;
+}
+
+.imagem__colaborador{
+    width: 4%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px){
+
+    .vagas__conteiner {
+        margin: 6em 1em 3em 1em;
+    }
+
+    .vagas__abertas__titulo {
+        font-size: 20px;
+        margin: 1em 0;
+    }
+
+    .vagas__abertas__texto {
+        font-size: 12px;
+    }
+
+    .vagas {
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .vagas__titulo {
+        margin-top: 2em;
+    }
+
+    .vagas__item__titulo {
+        font-size: 14px;
+    }
+
+    .vagas__item__texto {
+        font-size: 12px;
+    }
+
+    .vagas__titulo{
+        font-size: 16px;
+    }
+
+    .vagas__abertas__alerta {
+        font-size: 12px;
+    }
+
+    .colaboradores {
+        margin: 2em 0 0 0;
+        padding: 1em;
+    }
+
+    .colaboradores__titulo,  .colaboradores__nome, .colaboradores__funcao{
+        font-size: 12px;
+    }
+
+    .colaboradores__texto{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .imagem__colaborador {
+        width: 15%;
+    }
+}
