@@ -1,7 +1,7 @@
 <h1>OptimusTech</h1>
 
 <h2>Sobre</h2>
-<p>Projeto criado durante o desafio 7DaysOfCode na Alura, neste projeto foi confeccionado um site responsivo da OptimusTech.</p>
+<p>Projeto criado durante o desafio 7DaysOfCode na Alura, nesse projeto foi confeccionado um site responsivo da OptimusTech.</p>
 <a href = "https://optimus-tech-self.vercel.app/" class = "link">Clique aqui para acessar o projeto</a>
 </br> </br> </br>
 ##Tecnologias
